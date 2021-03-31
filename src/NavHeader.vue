@@ -5,7 +5,7 @@
       <ul class="navbar-nav mr-auto">
       </ul>
       <ul class="nav navbar-nav">
-        <li>
+        <li class="active nav-item">
           <a @click="onLandingpageClicked" class="nav-link">Landingpage</a>
         </li>
         <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item" active-class="active">
