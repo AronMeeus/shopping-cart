@@ -5,9 +5,9 @@
       <ul class="navbar-nav mr-auto">
       </ul>
       <ul class="nav navbar-nav">
-        <li class="active nav-item">
+        <router-link to="/" tag="li"  class="nav-item" active-class="active">
           <a @click="onLandingpageClicked" class="nav-link">Landingpage</a>
-        </li>
+        </router-link>
         <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item" active-class="active">
           <a @click="onLoginClicked" class="nav-link">Login</a>
         </router-link>

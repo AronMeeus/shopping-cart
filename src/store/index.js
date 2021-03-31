@@ -5,7 +5,7 @@ import axios from 'axios'
 
 Vue.use(Vuex)
 
-const url = "http://localhost:8000/products";
+const url = "http://product-service-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products";
 const headers = { Accept: "application/json" };
 
 export default new Vuex.Store({
@@ -23,8 +23,8 @@ export default new Vuex.Store({
     },
     endpoints: {
       login: "http://authentication-nodejs-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/Login",
-      partnercheck: "http://localhost:8000/check",
-      products: "http://localhost:8000/products",
+      partnercheck: "http://product-service-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/check",
+      products: "http://product-service-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/products",
       landingpage: "http://landingpage-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud"
     },
   },
