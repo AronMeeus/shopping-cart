@@ -62,7 +62,7 @@ export default {
       return this.$store.state.user.name;
     },
     onLandingpageClicked() {
-      window.location = this.$store.state.endpoints.landinpage;
+      window.location = this.$store.state.endpoints.landingpage;
     }
   }
 }
