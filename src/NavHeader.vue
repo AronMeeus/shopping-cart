@@ -5,6 +5,9 @@
       <ul class="navbar-nav mr-auto">
       </ul>
       <ul class="nav navbar-nav">
+        <li>
+          <a @click="onLandingpageClicked" class="nav-link">Landingpage</a>
+        </li>
         <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item" active-class="active">
           <a @click="onLoginClicked" class="nav-link">Login</a>
         </router-link>
@@ -57,6 +60,9 @@ export default {
     },
     getUserName() {
       return this.$store.state.user.name;
+    },
+    onLandingpageClicked() {
+      window.location = this.$store.state.endpoints.landinpage;
     }
   }
 }

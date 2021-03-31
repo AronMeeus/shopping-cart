@@ -25,6 +25,7 @@ export default new Vuex.Store({
       login: "http://authentication-nodejs-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/Login",
       partnercheck: "http://localhost:8000/check",
       products: "http://localhost:8000/products",
+      landingpage: "http://landingpage-git-ucllteam07.ocp-ucll-40cb0df2b03969eabb3fac6e80373775-0000.eu-de.containers.appdomain.cloud/"
     },
   },
   getters: {
