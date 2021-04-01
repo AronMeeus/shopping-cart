@@ -1,5 +1,5 @@
 <template>
-<nav class="navbar navbar-expand-sm navbar-dark bg-dark" role="navigation">
+<nav class="navbar navbar-expand-sm navbar-dark bg-secondary" role="navigation">
   <div class="container">
     <router-link to="/" class="navbar-brand mr-auto">SkillSim</router-link>
       <ul class="navbar-nav mr-auto">
