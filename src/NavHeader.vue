@@ -6,7 +6,7 @@
       </ul>
       <ul class="nav navbar-nav">
         <router-link to="/" tag="li"  class="nav-item" active-class="active">
-          <a @click="onLandingpageClicked" class="nav-link">Landingpage</a>
+          <a @click="onLandingpageClicked" class="nav-link">Home</a>
         </router-link>
         <router-link to="/" tag="li" v-if="!isAuthenticated" class="nav-item" active-class="active">
           <a @click="onLoginClicked" class="nav-link">Login</a>
